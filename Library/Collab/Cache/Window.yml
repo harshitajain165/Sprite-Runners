@@ -1,0 +1,1564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Course Library.meta
+    - Assets/Course Library/Characters.meta
+    - Assets/Course Library/Characters/Farm.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Man_02_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_01_White.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Black.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_Brown.prefab.meta
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab
+    - Assets/Course Library/Characters/Farm/SimpleFarmer_Woman_02_White.prefab.meta
+    - Assets/Course Library/Characters/Town.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Business_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_Punk_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Man_RoadWorker_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Doctor_White.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Black.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_Brown.prefab.meta
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab
+    - Assets/Course Library/Characters/Town/SimplePeople_Woman_Waitress_White.prefab.meta
+    - Assets/Course Library/Obstacles.meta
+    - Assets/Course Library/Obstacles/Barrel_01.prefab
+    - Assets/Course Library/Obstacles/Barrel_01.prefab.meta
+    - Assets/Course Library/Obstacles/Barrel_02.prefab
+    - Assets/Course Library/Obstacles/Barrel_02.prefab.meta
+    - Assets/Course Library/Obstacles/Crate_01.prefab
+    - Assets/Course Library/Obstacles/Crate_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab
+    - Assets/Course Library/Obstacles/Prob_Rock_Boulder_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab
+    - Assets/Course Library/Obstacles/Prop_Barrier03.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Spool_02.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab
+    - Assets/Course Library/Obstacles/Prop_StoneWall_01.prefab.meta
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab
+    - Assets/Course Library/Obstacles/Prop_Tree_Log_02.prefab.meta
+    - Assets/Course Library/Particles.meta
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab
+    - Assets/Course Library/Particles/FX_DirtSplatter.prefab.meta
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab
+    - Assets/Course Library/Particles/FX_Explosion_Smoke.prefab.meta
+    - Assets/Course Library/Sound.meta
+    - Assets/Course Library/Sound/Music.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern01.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern02.ogg.meta
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg
+    - Assets/Course Library/Sound/Music/cron_audio_8-bit_modern03.ogg.meta
+    - Assets/Course Library/Sound/SFX.meta
+    - Assets/Course Library/Sound/SFX/crash1.wav
+    - Assets/Course Library/Sound/SFX/crash1.wav.meta
+    - Assets/Course Library/Sound/SFX/crash2.wav
+    - Assets/Course Library/Sound/SFX/crash2.wav.meta
+    - Assets/Course Library/Sound/SFX/crash3.wav
+    - Assets/Course Library/Sound/SFX/crash3.wav.meta
+    - Assets/Course Library/Sound/SFX/jump1.wav
+    - Assets/Course Library/Sound/SFX/jump1.wav.meta
+    - Assets/Course Library/Sound/SFX/jump2.wav
+    - Assets/Course Library/Sound/SFX/jump2.wav.meta
+    - Assets/Course Library/Sound/SFX/jump3.wav
+    - Assets/Course Library/Sound/SFX/jump3.wav.meta
+    - Assets/Course Library/_Source_Files.meta
+    - Assets/Course Library/_Source_Files/FBX.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask
+    - Assets/Course Library/_Source_Files/FBX/Animations/Mask_Upper.mask.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller
+    - Assets/Course Library/_Source_Files/FBX/Animations/SimpleCharacter_5.0.controller.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_IK.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx
+    - Assets/Course Library/_Source_Files/FBX/Animations_Static.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_Barrier03.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/Prop_BouyLarge_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Primitive_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Barrel_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Crate_Question_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Spool_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_StoneWall_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Prop_Synty_Cube_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Rock_Boulder_01.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx
+    - Assets/Course Library/_Source_Files/FBX/SM_Tree_Log_02.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimpleFarm_Characters.fbx.meta
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx
+    - Assets/Course Library/_Source_Files/FBX/SimplePeople.fbx.meta
+    - Assets/Course Library/_Source_Files/Materials.meta
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat
+    - Assets/Course Library/_Source_Files/Materials/FX_Base.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat
+    - Assets/Course Library/_Source_Files/Materials/MilitaryProps.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonNature_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat
+    - Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_04.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat
+    - Assets/Course Library/_Source_Files/Materials/Prop_Signs_00.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_RoadWorker_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Brown.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat
+    - Assets/Course Library/_Source_Files/Materials/SimplePort.mat.meta
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader
+    - Assets/Course Library/_Source_Files/Materials/UnlitVertexColour_Alpha.shader.meta
+    - Assets/Course Library/_Source_Files/Misc.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Body.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_Head.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask
+    - Assets/Course Library/_Source_Files/Misc/Mask_LowerBody.mask.meta
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx
+    - Assets/Course Library/_Source_Files/Misc/SM_Prop_Barrel_01.fbx.meta
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller
+    - Assets/Course Library/_Source_Files/Misc/SimpleCharacter.controller.meta
+    - Assets/Course Library/_Source_Files/Textures.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png
+    - Assets/Course Library/_Source_Files/Textures/Background_City.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Nature.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png
+    - Assets/Course Library/_Source_Files/Textures/Background_Town.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonNature_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_01.png.meta
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png
+    - Assets/Course Library/_Source_Files/Textures/PolygonPrototype_Texture_04.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png
+    - Assets/Course Library/_Source_Files/Textures/Signs_00.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmWrangler_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BeachBabe_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Black.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png.meta
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png
+    - Assets/Course Library/_Source_Files/Textures/SimplePort.png.meta
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png
+    - Assets/Course Library/_Source_Files/Textures/Textures_Props.png.meta
+    - Assets/Course Library/_Source_Files/_LICENSE.txt
+    - Assets/Course Library/_Source_Files/_LICENSE.txt.meta
+    - Assets/Database.meta
+    - Assets/Database/New Character Database.asset
+    - Assets/Database/New Character Database.asset.meta
+    - Assets/Materials.meta
+    - Assets/Materials/1080x360.jpg
+    - Assets/Materials/1080x360.jpg.meta
+    - Assets/Materials/Asset 1@72x.png
+    - Assets/Materials/Asset 1@72x.png.meta
+    - Assets/Materials/Char1_Rogue.png
+    - Assets/Materials/Char1_Rogue.png.meta
+    - Assets/Materials/Char2_Warrior.png
+    - Assets/Materials/Char2_Warrior.png.meta
+    - Assets/Materials/Char3_Mystic.png
+    - Assets/Materials/Char3_Mystic.png.meta
+    - Assets/Materials/Char4_Adventurer.png
+    - Assets/Materials/Char4_Adventurer.png.meta
+    - Assets/Materials/Char5_Muse.png
+    - Assets/Materials/Char5_Muse.png.meta
+    - Assets/Materials/Restart@72x 1.png
+    - Assets/Materials/Restart@72x 1.png.meta
+    - Assets/Materials/bg 1.png
+    - Assets/Materials/bg 1.png.meta
+    - Assets/Materials/bg alt 10.jpg
+    - Assets/Materials/bg alt 10.jpg.meta
+    - Assets/Materials/bg alt 11.jpg
+    - Assets/Materials/bg alt 11.jpg.meta
+    - Assets/Materials/bg alt 12.jpg
+    - Assets/Materials/bg alt 12.jpg.meta
+    - Assets/Materials/bg alt 2.jpg
+    - Assets/Materials/bg alt 2.jpg.meta
+    - Assets/Materials/bg alt 3.jpg
+    - Assets/Materials/bg alt 3.jpg.meta
+    - Assets/Materials/bg alt 4.jpg
+    - Assets/Materials/bg alt 4.jpg.meta
+    - Assets/Materials/bg alt 5.jpg
+    - Assets/Materials/bg alt 5.jpg.meta
+    - Assets/Materials/bg alt 7.jpg
+    - Assets/Materials/bg alt 7.jpg.meta
+    - Assets/Materials/bg alt 8.jpg
+    - Assets/Materials/bg alt 8.jpg.meta
+    - Assets/Materials/bg.png
+    - Assets/Materials/bg.png.meta
+    - Assets/Materials/bg_screen2.png
+    - Assets/Materials/bg_screen2.png.meta
+    - Assets/Materials/bgalt.jpg
+    - Assets/Materials/bgalt.jpg.meta
+    - Assets/Materials/exit@72x.png
+    - Assets/Materials/exit@72x.png.meta
+    - Assets/Materials/home@72x.png
+    - Assets/Materials/home@72x.png.meta
+    - Assets/Materials/maingbgtrial1.png
+    - Assets/Materials/maingbgtrial1.png.meta
+    - Assets/Materials/next@72x.png
+    - Assets/Materials/next@72x.png.meta
+    - Assets/Materials/previous@72x.png
+    - Assets/Materials/previous@72x.png.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Obstacle.prefab
+    - Assets/Prefabs/Obstacle.prefab.meta
+    - Assets/Prefabs/Obstacle2.prefab
+    - Assets/Prefabs/Obstacle2.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Character Selection.unity
+    - Assets/Scenes/Character Selection.unity.meta
+    - Assets/Scenes/GameOver Menu.unity
+    - Assets/Scenes/GameOver Menu.unity.meta
+    - Assets/Scenes/Load Level.unity
+    - Assets/Scenes/Load Level.unity.meta
+    - Assets/Scenes/Prototype 3.unity
+    - Assets/Scenes/Prototype 3.unity.meta
+    - Assets/Scenes/Prototype 4.unity
+    - Assets/Scenes/Prototype 4.unity.meta
+    - Assets/Scenes/Prototype 5.unity
+    - Assets/Scenes/Prototype 5.unity.meta
+    - Assets/Scenes/Prototype 6.unity
+    - Assets/Scenes/Prototype 6.unity.meta
+    - Assets/Scenes/Prototype 7.unity
+    - Assets/Scenes/Prototype 7.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/Character.cs
+    - Assets/Scripts/Character.cs.meta
+    - Assets/Scripts/CharacterDatabase.cs
+    - Assets/Scripts/CharacterDatabase.cs.meta
+    - Assets/Scripts/CharacterManager.cs
+    - Assets/Scripts/CharacterManager.cs.meta
+    - Assets/Scripts/GameOverMenu.cs
+    - Assets/Scripts/GameOverMenu.cs.meta
+    - Assets/Scripts/LevelLoader.cs
+    - Assets/Scripts/LevelLoader.cs.meta
+    - Assets/Scripts/MoveLeft.cs
+    - Assets/Scripts/MoveLeft.cs.meta
+    - Assets/Scripts/PlayerController.cs
+    - Assets/Scripts/PlayerController.cs.meta
+    - Assets/Scripts/RepeatBackground.cs
+    - Assets/Scripts/RepeatBackground.cs.meta
+    - Assets/Scripts/SpawnManager.cs
+    - Assets/Scripts/SpawnManager.cs.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Fonts/MadHacker-YYqv SDF.asset
+    - Assets/TextMesh Pro/Fonts/MadHacker-YYqv SDF.asset.meta
+    - Assets/TextMesh Pro/Fonts/MadHacker-YYqv.ttf
+    - Assets/TextMesh Pro/Fonts/MadHacker-YYqv.ttf.meta
+    - Assets/TextMesh Pro/Fonts/MadHacker-Yjz8 SDF.asset
+    - Assets/TextMesh Pro/Fonts/MadHacker-Yjz8 SDF.asset.meta
+    - Assets/TextMesh Pro/Fonts/MadHacker-Yjz8.ttf
+    - Assets/TextMesh Pro/Fonts/MadHacker-Yjz8.ttf.meta
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-8EOz SDF.asset
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-8EOz SDF.asset.meta
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-8EOz.ttf
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-8EOz.ttf.meta
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-rPg9 SDF.asset
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-rPg9 SDF.asset.meta
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-rPg9.ttf
+    - Assets/TextMesh Pro/Fonts/MadHackerItalic-rPg9.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/Toby Fredson.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Author's note!.txt
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Author's note!.txt.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Day.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/BackgroundTest_Night.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Glow.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Glow.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Green.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Green.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Ground.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (1).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (1).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (10).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (10).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (11).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (11).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (12).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (12).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (13).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (13).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (14).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (14).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (15).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (15).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (16).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (16).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (17).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (17).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (18).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (18).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (19).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (19).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (2).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (2).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (20).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (20).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (21).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (21).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (22).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (22).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (23).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (23).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (24).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (24).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (25).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (25).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (26).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (26).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (27).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (27).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (28).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (28).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (29).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (29).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (3).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (3).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (30).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (30).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (31).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (31).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (32).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (32).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (33).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (33).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (34).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (34).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (4).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (4).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (5).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (5).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (6).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (6).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (7).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (7).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (8).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (8).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (9).mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall
+      (9).mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MaterialBall.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Mushrooms.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowA.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowB.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/MushroomsGlowC.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Plane.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/Vegetation.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksA.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksB.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksB.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksC.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksC.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksD.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksD.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksE.mat
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Materials/WoodPlanksE.mat.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/DetailsProp.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/DetailsProp.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassA.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassA.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassB.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassB.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassC.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/GrassC.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MaterialBall.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MaterialBall.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom1.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom1.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom2.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom2.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom3.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/Mushroom3.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsA.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsA.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsB.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/MushroomsB.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA_singlemesh.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantA_singlemesh.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantB.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantB.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantB_singlemesh.fbx
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/PT_PlantB_singlemesh.fbx.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/ParticlePlane.obj
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Models/ParticlePlane.obj.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesA.jpg
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesA.jpg.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesB.jpg
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PT_UpdatesB.jpg.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/ATSG_SampleA.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/ATSG_SampleA.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/ATSG_SampleC.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/ATSG_SampleC.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/MushroomsABC.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/PostProcessing/MushroomsABC.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Day.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Day.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Night.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/BackgroundTest_Night.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsProp.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsProp.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsPropGlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/DetailsPropGlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Fireflies.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Fireflies.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/GrassC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (1).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (1).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (10).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (10).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (11).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (11).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (12).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (12).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (13).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (13).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (14).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (14).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (15).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (15).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (16).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (16).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (17).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (17).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (18).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (18).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (19).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (19).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (2).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (2).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (20).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (20).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (21).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (21).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (22).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (22).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (23).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (23).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (24).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (24).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (25).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (25).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (26).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (26).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (27).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (27).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (28).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (28).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (29).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (29).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (3).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (3).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (30).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (30).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (31).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (31).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (32).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (32).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (33).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (33).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (34).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (34).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (4).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (4).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (5).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (5).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (6).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (6).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (7).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (7).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (8).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (8).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (9).prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall
+      (9).prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MaterialBalls/MaterialBall.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom1GlowC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom2GlowC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/Mushroom3GlowC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsAGlowC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/MushroomsBGlowC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA_singlemesh.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantA_singlemesh.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB_singlemesh.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/PT_PlantB_singlemesh.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksA.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksA.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksB.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksB.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksC.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksC.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksD.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksD.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksE.prefab
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Prefabs/WoodPlanksE.prefab.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Read Me!.pdf
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Read Me!.pdf.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleA.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleA.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleASettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleASettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleB.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleB.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleBSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleBSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleC.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleC.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleCSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/ATSG_SampleCSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/All terrains.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/All terrains.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/All terrainsSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/All terrainsSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MaterialTest.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MaterialTest.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MaterialTestSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MaterialTestSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsA.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsA.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsASettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsASettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsB.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsB.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsBSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsBSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_Day.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_Day.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_DaySettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_DaySettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_Night.unity
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_Night.unity.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_NightSettings.lighting
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Scenes/MushroomsC_NightSettings.lighting.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_SampleB.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_SampleB.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_TerrainSample.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/ATSG_TerrainSample.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      2.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      2.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      3.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      3.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      4.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      4.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      5.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      5.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      6.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain
+      6.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/New Terrain.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK.asset
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK.asset.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Terrains/PT_TerrainLK_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/BackgroundTest_Day.jpg
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/BackgroundTest_Day.jpg.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/BackgroundTest_Night.jpg
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/BackgroundTest_Night.jpg.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Glow.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Glow.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass1A.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass1A.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass1B.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass1B.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass2A.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass2A.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass2B.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Grass2B.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_AlbedoB.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_AlbedoB.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassA_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassB_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtGrassB_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_AlbedoB.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_AlbedoB.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirt_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtgrassA_Speular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKDirtgrassA_Speular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassHigh_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Alpha.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Alpha.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrassRocks_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKGrass_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocksLight_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKMountainRocks_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKPurpleStones_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Albedo.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Albedo.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKSnowRock_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Diffuse.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Diffuse.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWaterLeaves_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridgeA2_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridgeA2_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_AO3.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_AO3.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA3.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseA3.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseB.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseB.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseB2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_DiffuseB2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission3.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Emission3.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_HightA3.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_HightA3.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_NormalA3Mask.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_NormalA3Mask.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_SpecA3.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_SpecA3.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/LKWoodenBridge_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_Diffuse.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_Diffuse.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionA.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionA.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionB.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionB.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionC.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_EmmisionC.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/LK_Textures/Mushrooms_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirtGrassA_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirtGrassA_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirtGrassB_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirtGrassB_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirt_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKDirt_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassHigh_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassHigh_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassRocks_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassRocks_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassRocks_Normalb.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrassRocks_Normalb.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrass_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKGrass_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKMountainRocksLight_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKMountainRocksLight_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKMountainRocks_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKMountainRocks_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKPurpleStones_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKPurpleStones_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKPurpleStones_Normal2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKPurpleStones_Normal2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKSnowRock_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKSnowRock_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWaterLeaves_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWaterLeaves_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_NormalA2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_NormalA2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_NormalA3.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/LKWoodenBridge_NormalA3.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/Mushrooms_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/Normals/Mushrooms_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Daedleavs.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Daedleavs.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Dirt.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Dirt.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_GrassBase.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_GrassBase.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_GrassHigh.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_GrassHigh.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_RockGrass.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_RockGrass.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Tiles.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Fall/SleepingForest_Fall_Tiles.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava
+      A.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava
+      A.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava
+      B.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava
+      B.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_LavaDirt.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_LavaDirt.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava_Emission.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Lava/SleepingForest_Lava_Emission.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_CliffLight_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_CliffLight_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Hight2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Hight2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Normal
+      A.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Normal
+      A.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Normal
+      A2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Cliff_Normal
+      A2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Dirt_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Flowers_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassBase_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_GrassHigh_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Lava_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Lava_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Lava_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Lava_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Leaves_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockGrass_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_RockSnow_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Rock_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Normal
+      A.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Normal
+      A.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Normal
+      B.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_SnowLumpy_Normal
+      B.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Normal
+      A.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Normal
+      A.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Normal
+      B.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Snow_Normal
+      B.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesFall_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_TilesWinter_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_Hight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_Hight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Generic_Tiles_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_CliffLight_Hight2.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_CliffLight_Hight2.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_CliffLight_Normal.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_CliffLight_Normal.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_Cliff_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_NormalMaps/SleepingForest_Winter_Cliff_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_Daedleavs_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_Daedleavs_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_GrassBase_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_GrassBase_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_Tiles_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Fall_Tiles_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Dirt_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Dirt_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_GrassHigh_Speclar.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_GrassHigh_Speclar.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Lava_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Lava_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_RockGrass_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_RockGrass_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Rock_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Generic_Rock_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Cliff_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Cliff_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Flowers_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Flowers_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Tiles_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Summer_Tiles_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_CliffLight_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_CliffLight_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Cliff_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Cliff_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Ice2_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Ice2_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Ice_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Ice_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_RockSnow_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_RockSnow_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Rock_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Rock_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular2.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular2.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular3.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_SnowLumpy_Specular3.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Snow_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Snow_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Tiles_Specular.tif
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_SpecularMaps/SleepingForest_Winter_Tiles_Specular.tif.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Cliff.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Cliff.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Dirt.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Dirt.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Flowers.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Flowers.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_GrassBase.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_GrassBase.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_GrassHigh.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_GrassHigh.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Rock.PNG
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Rock.PNG.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_RockGrass.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_RockGrass.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Tiles.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Summer/SleepingForest_Summer_Tiles.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Cliff.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Cliff.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_CliffLight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_CliffLight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_DirtDark.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_DirtDark.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_DirtLight.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_DirtLight.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Rock.PNG
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Rock.PNG.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_RockSnow.PNG
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_RockSnow.PNG.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Snow.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Snow.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_SnowLumpy.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_SnowLumpy.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Tiles.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/SleepingForest_Winter/SleepingForest_Winter_Tiles.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01_AO.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01_AO.png.meta
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01_Specular.png
+    - Assets/Toby Fredson/Hand Painted Tiles - SleepingForest/Textures/PT_Textures/Test_Textures/Test
+      Texture 01_Specular.png.meta
+    - Assets/_TerrainAutoUpgrade.meta
+    - Assets/_TerrainAutoUpgrade/layer_ATSG_SampleBeda51f90c7f37482.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_ATSG_SampleBeda51f90c7f37482.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKDirt_AlbedoLKDirt_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKDirt_AlbedoLKDirt_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKGrassHigh_AlbedoLKGrassHigh_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKGrassHigh_AlbedoLKGrassHigh_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKGrassRocks_DiffuseLKGrassRocks_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKGrassRocks_DiffuseLKGrassRocks_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKGrass_AlbedoLKGrass_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKGrass_AlbedoLKGrass_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKMountainRocksLight_DiffuseLKMountainRocksLight_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKMountainRocksLight_DiffuseLKMountainRocksLight_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_LKMountainRocks_DiffuseLKMountainRocks_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_LKMountainRocks_DiffuseLKMountainRocks_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_PT_TerrainLK_DiffusePT_TerrainLK_Normale54650e06aa6253c.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_PT_TerrainLK_DiffusePT_TerrainLK_Normale54650e06aa6253c.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_Daedleavscd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_Daedleavscd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_DirtSleepingForest_Generic_Dirt_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_DirtSleepingForest_Generic_Dirt_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_GrassBaseSleepingForest_Generic_GrassBase_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_GrassBaseSleepingForest_Generic_GrassBase_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_GrassHighcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_GrassHighcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_RockGrassSleepingForest_Generic_RockGrass_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_RockGrassSleepingForest_Generic_RockGrass_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_TilesSleepingForest_Generic_TilesFall_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Fall_TilesSleepingForest_Generic_TilesFall_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Lava ASleepingForest_Generic_Lava_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Lava ASleepingForest_Generic_Lava_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirt793646612c42751.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirt793646612c42751.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirtSleepingForest_Generic_Dirt_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirtSleepingForest_Generic_Dirt_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirtSleepingForest_Generic_Dirt_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_LavaDirtSleepingForest_Generic_Dirt_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Cliff793646612c42751.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Cliff793646612c42751.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_CliffSleepingForest_Generic_Cliff_Normal
+      A2cd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_CliffSleepingForest_Generic_Cliff_Normal
+      A2cd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Cliffcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Cliffcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_DirtSleepingForest_Generic_Dirt_Normalb3407d0e55802f81.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_DirtSleepingForest_Generic_Dirt_Normalb3407d0e55802f81.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Dirtcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Dirtcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_FlowersSleepingForest_Generic_Flowers_Normalb3407d0e55802f81.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_FlowersSleepingForest_Generic_Flowers_Normalb3407d0e55802f81.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Flowerscd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Flowerscd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassBaseSleepingForest_Generic_GrassBase_Normalb3407d0e55802f81.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassBaseSleepingForest_Generic_GrassBase_Normalb3407d0e55802f81.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassBasecd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassBasecd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHigh793646612c42751.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHigh793646612c42751.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHighb3407d0e55802f81.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHighb3407d0e55802f81.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHighcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_GrassHighcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrass793646612c42751.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrass793646612c42751.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrassSleepingForest_Generic_RockGrass_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrassSleepingForest_Generic_RockGrass_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrasscd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockGrasscd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockSleepingForest_Generic_Rock_Normalcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_RockSleepingForest_Generic_Rock_Normalcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Rockcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_Rockcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_TilesSleepingForest_Generic_Tiles_Normalb3407d0e55802f81.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Summer_TilesSleepingForest_Generic_Tiles_Normalb3407d0e55802f81.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffLightcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffLightcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffSleepingForest_Generic_Cliff_Normal
+      A2cd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffSleepingForest_Generic_Cliff_Normal
+      A2cd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffSleepingForest_Generic_Cliff_Normal
+      A3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_CliffSleepingForest_Generic_Cliff_Normal
+      A3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtDarkcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtDarkcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtLightSleepingForest_Generic_Dirt_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtLightSleepingForest_Generic_Dirt_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtLightcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_DirtLightcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_RockSnowSleepingForest_Generic_Rock_Normal3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_RockSnowSleepingForest_Generic_Rock_Normal3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_RockSnowcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_RockSnowcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_Rockcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_Rockcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowLumpySleepingForest_Generic_SnowLumpy_Normal
+      Bcd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowLumpySleepingForest_Generic_SnowLumpy_Normal
+      Bcd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowSleepingForest_Generic_Snow_Normal
+      Acd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowSleepingForest_Generic_Snow_Normal
+      Acd2d2d038030d602.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowSleepingForest_Generic_Snow_Normal
+      B3d3aba195e4d26ee.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_SnowSleepingForest_Generic_Snow_Normal
+      B3d3aba195e4d26ee.terrainlayer.meta
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_Tilescd2d2d038030d602.terrainlayer
+    - Assets/_TerrainAutoUpgrade/layer_SleepingForest_Winter_Tilescd2d2d038030d602.terrainlayer.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
