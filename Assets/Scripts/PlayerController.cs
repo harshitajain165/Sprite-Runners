@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     public GameObject GameOverMenu;
     public AudioClip jumpSound;
     public AudioClip crashSound;
-
+    int playerNum;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
         //SetPlayerActive(CharacterManager.instance.selectedOption);
         Debug.Log(CharacterManager.instance.selectedOption);
 
-        int playerNum = CharacterManager.instance.selectedOption;
+        playerNum = CharacterManager.instance.selectedOption;
 
         playerRb = GetComponent<Rigidbody>();
         //playerRb = GetComponent<Rigidbody>();
@@ -61,10 +61,14 @@ public class PlayerController : MonoBehaviour
              playerAudio.PlayOneShot(jumpSound, 1.0f);
         }
 
-        if (isOnGround && gameOver == false){
-        score += Time.deltaTime * 2;
-        ScoreTxt.text = "" + score.ToString("F");
-    }   
+        if (isOnGround && gameOver == false)
+        {
+            score += Time.deltaTime * 2;
+            ScoreTxt.text = "" + score.ToString("F");
+        }
+
+        gameObject.transform.GetChild(playerNum).position = gameObject.transform.position;
+
     }
 
     private void OnCollisionEnter(Collision collision){
