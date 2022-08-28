@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
         int playerNum = CharacterManager.instance.selectedOption;
 
-        playerRb = gameObject.transform.GetChild(playerNum).GetComponent<Rigidbody>();
+        playerRb = GetComponent<Rigidbody>();
         //playerRb = GetComponent<Rigidbody>();
         
         playerAnim = gameObject.transform.GetChild(playerNum).GetComponent<Animator>();
@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour
             explosionParticle.Play();
             dirtParticle.Stop();
             playerAudio.PlayOneShot(crashSound, 1.0f);
-
         }
 
         // else if(collision.gameObject.CompareTag("Reward")){
@@ -107,15 +106,4 @@ public class PlayerController : MonoBehaviour
     
     // }
 
-   
-
-
-    void SetPlayerActive(int j){
-        // for(int i=0;i<gameObject.childCount;i++){
-        //     if(i==j){
-        //         gameobject.Transform.GetChild(i).gameobject.SetActive(true);
-        //     }
-        //     gameobject.Transform.GetChild(i).gameobject.SetActive(false);
-        // }
-    }
 }

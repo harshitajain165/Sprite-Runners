@@ -71,7 +71,6 @@ void Awake(){
 
     public void ChangeScene(int sceneID){
         SceneManager.LoadScene(sceneID);
-
     }
 
 }
