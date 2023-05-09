@@ -8,6 +8,8 @@ The gameplay is straightforward and intuitive. The player taps the spacebar to j
 
 The game uses various Unity components such as _Rigidbody, BoxCollider_, and _Animator_ to create realistic physics and animations for the character and obstacles. The game also uses Unity's UI system to create intuitive menus and interfaces for the player.
 
+View gameplay video _[here](https://drive.google.com/file/d/1Kwd9W9uwMRIPQHjtL8s9wEVY8tlMhwtM/view?usp=sharing)_.
+
 ![ezgif com-gif-maker(2)](https://user-images.githubusercontent.com/77115160/212480178-c20aac97-9e6b-4b7e-bda0-59308fed6497.gif)
 
 
